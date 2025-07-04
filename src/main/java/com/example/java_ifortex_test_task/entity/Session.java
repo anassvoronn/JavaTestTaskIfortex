@@ -19,7 +19,6 @@ public class Session {
     private Long id;
 
     @Column(name = "device_type", nullable = false)
-    @Enumerated(EnumType.ORDINAL)
     private DeviceType deviceType;
 
     @Column(name = "ended_at_utc")
